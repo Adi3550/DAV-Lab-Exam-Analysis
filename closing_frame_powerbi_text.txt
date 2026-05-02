@@ -1,0 +1,135 @@
+========================================
+CLOSING FRAME — EXACT TEXT FOR POWER BI
+========================================
+
+Copy and paste these directly into Power BI text boxes.
+
+----------------------------------------
+TEXT BOX 1 — MAIN TITLE
+----------------------------------------
+CLOSING FRAME — The Investigator's Verdict
+
+This is not a conclusion. It is an honest accounting of what we found, what we chose, and what remains unknown.
+
+----------------------------------------
+TEXT BOX 2 — DEFENSIBLE CHOICES
+----------------------------------------
+EVERY DECISION HAS A REASON
+
+We removed 431,000 trips (4.3% of raw data) using 9 filters. Each filter has a documented rationale:
+
+CHOICE 1: WHAT COUNTS AS A "REAL TRIP"
+- Zero/negative distance ........ A trip must physically move
+- Extreme distance (>100 mi) .... NYC is ~30 miles across  
+- Impossible timestamps ......... Pickup must precede dropoff
+- Negative fares ................ Payment must be positive
+- Extreme fares (>$500) ......... Standard rides cost less
+- Extreme duration (>3 hours) ... NYC trips are shorter
+- Impossible speed (>80 mph) .... Traffic prevents this
+- Invalid location IDs .......... TLC defines 263 zones only
+
+WHY THIS MATTERS: If we had kept bad data, the "hidden decline" would have been invisible.
+
+CHOICE 2: JUNE-AUGUST AS ANALYSIS WINDOW
+The critical points of f(x) = x^3/3 - 7x^2 + 48x are x=6 and x=8.
+The math chose our months. When you look matters as much as what you look at.
+
+CHOICE 3: 7% FARE INCREASE AS POLICY
+With R=7, we simulated a 7% minimum fare increase — modest enough to be realistic, large enough to test responsiveness.
+
+CHOICE 4: REVENUE PER TRIP AS PRIMARY METRIC
+Instead of total revenue (which looked stable), we examined per-unit economics. This revealed the hidden truth: drivers work more for less.
+
+----------------------------------------
+TEXT BOX 3 — ASSUMPTIONS QUESTIONED  
+----------------------------------------
+WE MIGHT BE WRONG — AND HERE'S WHERE
+
+ASSUMPTION 1: "Revenue per trip decline is real and permanent"
+- We only have summer data. Winter trips might be longer. Revenue might recover.
+- Tourists take shorter rides in summer — this could be SEASONAL, not structural.
+- HONEST VERDICT: The decline is real in June-August. Whether it persists year-round is UNKNOWN.
+
+ASSUMPTION 2: "The problem is internal to the taxi system"
+- Uber/Lyft hold 78-81% of NYC for-hire trips.
+- Remaining taxi trips may be naturally shorter/less profitable.
+- This may be MARKET EVOLUTION, not system failure.
+- HONEST VERDICT: We analyzed taxis specifically because the commissioner asked about the TAXI ecosystem. External competition may drive what looks like internal decline.
+
+ASSUMPTION 3: "A 7% fare increase will help drivers"
+- We used standard elasticity estimates (-0.3 to -1.0). Actual NYC taxi demand elasticity is UNKNOWN.
+- Passengers might switch to Uber/Lyft faster than our model predicts.
+- HONEST VERDICT: Simulation shows positive impact under reasonable assumptions. Real-world behavior may differ.
+
+ASSUMPTION 4: "Our data cleaning did not bias results"
+- Removing extreme values might remove legitimate edge cases.
+- HONEST VERDICT: We tested sensitivity — the decline persists with different thresholds. But we cannot guarantee zero bias.
+
+----------------------------------------
+TEXT BOX 4 — LIMITS OF CONCLUSIONS
+----------------------------------------
+THIS ANALYSIS HAS BOUNDARIES
+
+WHAT WE CAN SAY WITH CONFIDENCE:
+✓ Revenue per trip declined significantly (June-August 2024)
+✓ Total revenue stability masks this per-unit decline  
+✓ Daily travel patterns are highly predictable (strong rhythm)
+✓ Evening hours show the most economic stress
+✓ A 7% fare increase benefits drivers across all elasticity scenarios
+✓ Data quality issues exist but do not invalidate the core finding
+
+WHAT WE CANNOT SAY:
+✗ Whether the trend will continue (no predictive power)
+✗ Whether it's unique to yellow taxis (no Uber/Lyft data)
+✗ Whether drivers are actually poorer (no expense data)
+✗ What the optimal policy is (requires stakeholder input)
+✗ Whether seasonal factors fully explain the decline
+✗ Whether the system will "collapse" (we see drift, not impending failure)
+
+WHAT WOULD CHANGE OUR CONCLUSION:
+1. Winter data showing recovery → seasonal, not structural
+2. Driver expense data showing costs fell more than revenue → net pay stable
+3. Uber/Lyft data showing identical decline → market-wide, not taxi-specific
+4. Policy data showing fare increase reversed trend → decline is reversible
+
+----------------------------------------
+TEXT BOX 5 — THE FINAL VERDICT (MOST IMPORTANT)
+----------------------------------------
+VERDICT: THE SYSTEM IS QUIETLY DRIFTING INTO INEFFECTIVENESS
+
+This is not a collapse. It is something more dangerous — a system that looks healthy on the surface while eroding underneath.
+
+THE EVIDENCE:
+• Aggregate metrics (total revenue, total trips) appear stable
+• Per-unit metrics (revenue per trip) show statistically significant decline
+• Drivers work harder (more trips) for the same total money
+• Evening hours and certain zones show concentrated stress
+• Daily demand patterns are predictable, but each "pulse" carries less value
+
+WHAT "QUIET DRIFT" LOOKS LIKE:
+The system still functions. Trips still happen. Revenue still flows. But the ECONOMICS OF EACH TRIP are deteriorating. Drivers feel it first. Passengers may not notice yet. The commissioner sensed it before the data confirmed it.
+
+THE COMMISSIONER'S INTUITION WAS CORRECT.
+
+RECOMMENDATION:
+The 7% fare increase simulation shows positive outcomes across all demand elasticity scenarios. However, we recommend a STAGED APPROACH:
+- Phase 1: 3% increase, monitor for 1 month
+- Phase 2: Additional 4% if system remains stable
+- Monitor: Track both total revenue AND revenue per trip weekly
+
+UNLESS ACTION IS TAKEN, the quiet drift will continue. Not with a bang, but with a gradual erosion of driver livelihoods and, eventually, service quality.
+
+The signs are real. They are not noise that looks convincing. But they are also not irreversible. The system can be stabilized — if the commissioner acts on what the data reveals.
+
+----------------------------------------
+TEXT BOX 6 — SIGN-OFF
+----------------------------------------
+This investigation was conducted with defensible choices, honest acknowledgment of uncertainty, and clear boundaries on what the data can and cannot claim.
+
+The data spoke. We listened. We reported what we heard — including the parts that make us less certain, not more.
+
+That is the difference between analysis and advocacy.
+The commissioner deserves the truth, not a convenient story.
+
+Roll: 0304 | R = 7 | June-August 2024
+Method: Critical point analysis → Data cleaning → Hypothesis testing → Temporal pattern analysis → Policy simulation → Power BI reporting

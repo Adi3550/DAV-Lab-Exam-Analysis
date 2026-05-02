@@ -1,0 +1,6 @@
+wrong_conclusion,why_wrong,right_conclusion,correction_method,severity
+"Total revenue is stable, system is healthy",Ignores per-trip decline; total = volume × per-unit,Revenue per trip is declining — drivers are poorer,Decompose total into volume × per-unit metrics,CRITICAL
+More trips = more profit for drivers,Ignores revenue per trip; more work ≠ more pay,Drivers work harder for same money; system is inefficient,Calculate revenue per trip and driver hourly wage,HIGH
+Weekends have lower tips,Doesn't control for payment type; cash tips underreported,Credit card tips are similar; cash data is incomplete,Filter to credit card payments only for tip analysis,MEDIUM
+Any trip with a timestamp is valid,"Includes impossible data (zero distance, negative fare)","Real trips need valid distance, time, and locations",Apply data quality filters with documented rationale,HIGH
+Average fare represents typical trip,Extreme fares skew average; median is better,Median fare better represents typical trip,Use median instead of mean; remove outliers,MEDIUM

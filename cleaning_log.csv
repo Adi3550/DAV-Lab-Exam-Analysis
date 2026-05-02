@@ -1,0 +1,10 @@
+Filter,Trips_Removed,Rationale,Cumulative_Remaining,retention_pct
+NULL critical fields,0,Can't measure missing data,9595279,100.0
+Impossible timestamps,3226,Pickup must be before dropoff,9592053,99.96637929965351
+Zero/negative distance,155354,Trip must cover distance,9436699,98.34731225637108
+Extreme distance (>100mi),483,NYC width is ~30 miles,9436216,98.34227853093172
+Negative/zero fares,167541,Fare must be positive,9268675,96.59620111098384
+Extreme fare (>$500),93,Standard rides are cheaper,9268582,96.59523188434646
+Extreme duration (>3hr),6106,NYC trips are shorter,9262476,96.53159642361624
+Impossible speed (>80mph),2783,NYC traffic prevents this,9259693,96.5025925770371
+Invalid location IDs,95131,TLC has 263 zones only,9164562,95.51115710132035
